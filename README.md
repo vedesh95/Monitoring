@@ -1,16 +1,16 @@
-
+## Monitoring with Prometheus
 
 Create two VM's with the Security Group with inbound rules as:  
 Ports required to be open for VM's
-Custom TCP	TCP	587	0.0.0.0/0	
-HTTP	TCP	80	0.0.0.0/0	
-Custom TCP	TCP	30000 - 32767	0.0.0.0/0	
-HTTPS	TCP	443	0.0.0.0/0	
-Custom TCP	TCP	6443	0.0.0.0/0	
-Custom TCP	TCP	27017	0.0.0.0/0	
-SMTP	TCP	25	0.0.0.0/0	
-SMTPS	TCP	465	0.0.0.0/0	
-SSH	TCP	22	0.0.0.0/0	
+Custom TCP	TCP	587	0.0.0.0/0  
+HTTP	TCP	80	0.0.0.0/0  
+Custom TCP	TCP	30000 - 32767	0.0.0.0/0  
+HTTPS	TCP	443	0.0.0.0/0  
+Custom TCP	TCP	6443	0.0.0.0/0  
+Custom TCP	TCP	27017	0.0.0.0/0  
+SMTP	TCP	25	0.0.0.0/0  
+SMTPS	TCP	465	0.0.0.0/0  
+SSH	TCP	22	0.0.0.0/0  
 sustom TCP	TCP	3000 - 10000	0.0.0.0/0  
 
 
